@@ -72,13 +72,13 @@ def projects():
 
 
                 c1,c2,c3,c4 = st.columns(4)
-                c1.markdown("""**[Link to app](https://insightful-data-explorer-001.streamlit.app)**  """)
-                c2.markdown("""**[GitHub](https://github.com/archanags001/Insightful-Data-Explorer)**""")
-                c3.markdown("""**[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7220172770226102272/)** """)
-                c4.markdown("""**[X](https://x.com/streamlit/status/1814406829075542029)**""")
+                c1.markdown("""**[Link to app](link here)**  """)
+                c2.markdown("""**[GitHub]()**""")
+                c3.markdown("""**[LinkedIn]()** """)
+                c4.markdown("""**[X]()**""")
                 rc1,rc2 = st.columns(2)
                 rc1.markdown("""**[Streamlit community](https://buff.ly/3WqhYiB)**""")
-                rc2.markdown("""**[YouTube](https://www.youtube.com/watch?v=dwlE4p2uF6k)**""")
+                rc2.markdown("""**[YouTube]()**""")
 
 
         with col2:
@@ -91,7 +91,7 @@ def projects():
 
                     # Displaying the published paper link
                     st.markdown("""
-                    **Published Paper:** [Multimodal Biometric and Multi-Attack Protection Using Image Features](http://pnrsolution.org/Datacenter/Vol3/Issue2/140.pdf)
+                    **Published Paper:** [Multimodal Biometric and Multi-Attack Protection Using Image Features]()
                     """)
     
 
