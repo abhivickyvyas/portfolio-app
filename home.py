@@ -58,7 +58,7 @@ def aboutMe():
         c2.markdown("""**[LinkedIn](https://www.linkedin.com/in/abhishek-vyas-306009128)** """)
 
 
-    path = "Animation_blue_robo.json"
+    path = "data/animations/Animation_blue_robo.json"
     with open(path, "r") as file:
         url = json.load(file)
     with col2:
@@ -77,7 +77,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 def get_base64_image(image_path):
-    with open(image_path, "rb") as img_file:
+    with open(f"data/images/{image_path}", "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
 # Get the base64 string of the image

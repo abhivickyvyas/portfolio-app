@@ -20,7 +20,7 @@ def projects():
                     <h2>Projects </h2>
                 </div>
             """, unsafe_allow_html=True)
-    path = "Animation_girl.json"
+    path = "data/animations/Animation_girl.json"
     with open(path, "r") as file:
         url = json.load(file)
     with col2:
@@ -93,7 +93,6 @@ def projects():
                     st.markdown("""
                     **Published Paper:** [Multimodal Biometric and Multi-Attack Protection Using Image Features]()
                     """)
-    
 
 
-        
+

@@ -4,7 +4,7 @@ from streamlit_pdf_viewer import pdf_viewer
 
 
 def resume():
-    with open("Abhishek_Vyas_Resume.pdf", "rb") as pdf_file:
+    with open("data/pdfs/Abhishek_Vyas_Resume.pdf", "rb") as pdf_file:
         document = pdf_file.read()
 
     st.markdown("""
@@ -37,4 +37,4 @@ def resume():
             unsafe_allow_html=True
         )
 
-        pdf_viewer("Abhishek_Vyas_Resume.pdf")
+        pdf_viewer("data/pdfs/Abhishek_Vyas_Resume.pdf")
