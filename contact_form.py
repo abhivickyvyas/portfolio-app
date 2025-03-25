@@ -21,7 +21,7 @@ def contact():
                         <h2>📨 Contact Form </h2>
                     </div>
                 """, unsafe_allow_html=True)
-    path = "Animation_contact.json"
+    path = "data/animations/Animation_contact.json"
     with open(path, "r") as file:
         url = json.load(file)
     with col2:
