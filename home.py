@@ -38,7 +38,7 @@ def aboutMe():
         </style>
         <div class="justify-text">
         
-        I am a dedicated Data Scientist with over 4 years of professional experience in the dynamic fields of 
+        I am a dedicated Data Scientist with over 4.5 years of professional experience in the dynamic fields of 
         machine learning and artificial intelligence. I have a proven track record in developing innovative ML models, 
         conducting in-depth data analysis, and implementing data-driven solutions that significantly impact business outcomes.
         
